@@ -20,9 +20,9 @@ class UserForm(forms.ModelForm):
         attrs={'class': 'form-control', 'placeholder': 'Confirm password'}
     ), required=True, max_length=50)
 
-    phone_number = forms.CharField(widget=forms.TextInput(
-        attrs={'class': 'form-control', 'placeholder': 'Enter Phonenumber'}
-    ), required=True, max_length=50)
+    # phone_number = forms.CharField(widget=forms.TextInput(
+    #     attrs={'class': 'form-control', 'placeholder': 'Enter Phonenumber'}
+    # ), required=True, max_length=50)
 
 
     class Meta:
