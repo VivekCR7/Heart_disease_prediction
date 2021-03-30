@@ -34,7 +34,8 @@
             </div>
         </div>
     </nav>
-<h1>Predict your Heart disease</h1>
+<h1 style="color:white;">Predict your Heart disease</h1>
+<h5 style="color:skyblue;"><marquee><b>NOTE:</b> Please fill in the below details take the help from doctor if you are not sure. </marquee></h5>
     <div class="bg-agile">
 	<div class="book-appointment">
 	<h2>Medical Information</h2>
@@ -123,11 +124,13 @@
 
 					<div class="gaps">
 						<p>Maximum Heart Rate</p>
+            <p> Formula: (220 - "your age") </p>
 						{{form.max_heart_rate}}
 					</div>
 
 					<div class="gaps">
 						<p>Excercise Induced Angina</p>
+            <p>(do you feel any kind of pressure in the chest, jaw or arm?)</p>
 						{{form.exercise_induced_angina}}
 					</div>
 
