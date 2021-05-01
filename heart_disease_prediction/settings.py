@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'heart_disease_prediction.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "postgres",
+        'NAME': "heartdb",
         'USER': 'postgres',
-        'PASSWORD':'Vivek12@',
+        'PASSWORD':'postgres',
         'HOST':'localhost',
         'PORT': '',
     }
