@@ -129,8 +129,8 @@ STATICFILES_DIRS = [
     STATIC_DIR
 ]
 STATIC_URL = '/static/'
-# VENV_PATH = os.path.dirname(BASE_DIR)
-# STATIC_ROOT = os.path.join(VENV_PATH,'static_root')
+VENV_PATH = os.path.dirname(BASE_DIR)
+STATIC_ROOT = os.path.join(VENV_PATH,'staticfiles')
 
 #media
 MEDIA_DIR = os.path.join(BASE_DIR, "accounts/media")
