@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'heart_disease_prediction.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "heartdb",
-        'USER': 'postgres',
-        'PASSWORD':'postgres',
-        'HOST':'43a3cda5a1b7.ngrok.io',
-        'PORT': '',
+        'NAME': "d8j73qg13nkmoc",
+        'USER': 'jtwngbpjszqdeg',
+        'PASSWORD':'e6bb997b643f519ebe1c4688fd2df11e3791e44135e2bc908dd05960b85dfd8e',
+        'HOST':'ec2-35-174-35-242.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
