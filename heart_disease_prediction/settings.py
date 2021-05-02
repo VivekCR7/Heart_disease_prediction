@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': "heartdb",
         'USER': 'postgres',
         'PASSWORD':'postgres',
-        'HOST':'localhost',
+        'HOST':'http://43a3cda5a1b7.ngrok.io',
         'PORT': '',
     }
 }
